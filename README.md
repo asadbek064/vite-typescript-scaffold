@@ -1,3 +1,6 @@
+
+![image](https://repository-images.githubusercontent.com/1138425164/4a77ee44-b260-4ebb-bb68-855ac73d31b1)
+
 # project_name
 
 Example TypeScript package ready to be published and used. Pure JavaScript/TypeScript libraries. Zero framework overhead. 2026.
