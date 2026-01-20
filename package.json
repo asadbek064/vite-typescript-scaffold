@@ -1,0 +1,49 @@
+{
+  "name": "project_name",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "package": "vite build && pnpm pack",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "types": "./dist/project_name.d.ts",
+  "main": "./dist/project_name.min.js",
+  "module": "./dist/project_name.min.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/project_name.d.ts",
+      "require": "./dist/project_name.min.js",
+      "import": "./dist/project_name.min.mjs"
+    }
+  },
+  "files": [
+    "./dist/project_name.d.ts",
+    "./dist/project_name.min.js",
+    "./dist/project_name.min.js.map",
+    "./dist/sheeproject_nametui.min.mjs",
+    "./dist/project_name.min.mjs.map",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "packageManager": "pnpm@10.6.1",
+  "devDependencies": {
+    "@types/node": "25.0.8",
+    "eslint": "9.39.2",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.1",
+    "vite-plugin-dts": "4.5.4",
+    "vitest": "4.0.17"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
